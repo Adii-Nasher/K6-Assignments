@@ -26,6 +26,22 @@ Language Used - JavaScript
 HTML Report - K6 HTML REPORT EXPORTER V2
 ```
 
+## Commands to convert postman.json to k6.js 
+
+On Terminal
+```python
+npm install -g @apideck/postman-to-k6
+```
+
+```python
+postman-to-k6 [YourPostmanCollectionName].json -o [NameYouWantToGiveToYourK6Script].js
+```
+
+Additionally if your Postman collection have Environment Variable Support
+```python
+postman-to-k6 [YourPostmanCollectionName].json -e [YourPostmanCollectionEnvironmentName].json -o [NameYouWantToGiveToYourK6Script].js
+```
+
 ## Running the test
 
 clone the repository in your local system
@@ -38,7 +54,7 @@ Navigate to project root directory
 cd K6-Assignments
 ```
 
-On terminal
+On Terminal
 ```python
 git fetch
 
