@@ -1,4 +1,4 @@
-# Gatling Assignment
+# K6 Assignment-1
 
 ## Overview:-
 
@@ -43,5 +43,11 @@ cd K6-Assignments
 
 On terminal
 ```python
+git fetch
+
+git checkout feature/K6/Assignment1
+
+git pull origin feature/K6/Assignment1
+
 k6 run Assignment1.js
 ```
